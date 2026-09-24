@@ -1,0 +1,15 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://d1hbuejyglh3l"]
+
+[ext_resource type="Shader" uid="uid://jsojxcld6xob" path="res://shaders/sha_vanilla_pattern.gdshader" id="1_uexql"]
+[ext_resource type="Texture2D" uid="uid://bp4f4bnbts6tx" path="res://assets/checkerboard-512.png" id="2_bb1uh"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_uexql")
+shader_parameter/albedo = Color(1, 1, 1, 1)
+shader_parameter/texture_albedo = ExtResource("2_bb1uh")
+shader_parameter/roughness = 0.5
+shader_parameter/specular = 0.5
+shader_parameter/metallic = 0.0
+shader_parameter/uv_scale = 1.0
+shader_parameter/alt_speed = 2.0

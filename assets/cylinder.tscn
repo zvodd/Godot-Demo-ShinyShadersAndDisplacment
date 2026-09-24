@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://5v7hialbnr86"]
+
+[ext_resource type="ArrayMesh" uid="uid://bhc2djo0moesy" path="res://assets/mesh_hexthing.tres" id="1_pq1nm"]
+
+[node name="Cylinder" type="MeshInstance3D" unique_id=798407237]
+mesh = ExtResource("1_pq1nm")

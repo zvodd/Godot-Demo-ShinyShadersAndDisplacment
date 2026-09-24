@@ -1,0 +1,18 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://o4jl0ia3taij"]
+
+[ext_resource type="Shader" uid="uid://bwf8trfqvfdp0" path="res://shaders/sha_hex_tiled_multimesh_pattern.gdshader" id="1_7rasw"]
+[ext_resource type="Texture2D" uid="uid://clfovtf72dtx2" path="res://assets/tex_hexthing.webp" id="2_acx00"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_7rasw")
+shader_parameter/albedo = Color(1, 1, 1, 1)
+shader_parameter/texture_albedo = ExtResource("2_acx00")
+shader_parameter/roughness = 1.0
+shader_parameter/specular = 0.5
+shader_parameter/metallic = 0.0
+shader_parameter/uv_scale = 1.0
+shader_parameter/alt_speed = 2.0
+shader_parameter/point_center = Vector3(0, 0, 0)
+shader_parameter/radius = 5.0
+shader_parameter/offset_factor = 4.0
